@@ -109,7 +109,7 @@
     result = predicate(value, key, collection);
   }, true, true);
 
-  _.some = iterater(function (result, predicate, value, key, collection) {
+  _.every = iterater(function (result, predicate, value, key, collection) {
     result = predicate(value, key, collection);
   }, true, false);
 
